@@ -1,5 +1,5 @@
 {
-  "name": "@philiprehberger/react-form-hooks",
+  "name": "@philiprehberger/ts-react-form-hooks",
   "version": "0.1.2",
   "description": "Lightweight form management hook with Zod validation, debounced field validation, and common validators",
   "type": "module",
@@ -51,11 +51,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/philiprehberger/react-form-hooks.git"
+    "url": "git+https://github.com/philiprehberger/ts-react-form-hooks.git"
   },
-  "homepage": "https://github.com/philiprehberger/react-form-hooks#readme",
+  "homepage": "https://github.com/philiprehberger/ts-react-form-hooks#readme",
   "bugs": {
-    "url": "https://github.com/philiprehberger/react-form-hooks/issues"
+    "url": "https://github.com/philiprehberger/ts-react-form-hooks/issues"
   },
   "author": "Philip Rehberger",
   "engines": {

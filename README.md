@@ -1,17 +1,17 @@
-# @philiprehberger/react-form-hooks
+# @philiprehberger/ts-react-form-hooks
 
 Lightweight form management hook with Zod validation.
 
 ## Installation
 
 ```bash
-npm install @philiprehberger/react-form-hooks zod
+npm install @philiprehberger/ts-react-form-hooks zod
 ```
 
 ## Usage
 
 ```tsx
-import { useForm, validators } from '@philiprehberger/react-form-hooks';
+import { useForm, validators } from '@philiprehberger/ts-react-form-hooks';
 import { z } from 'zod';
 
 const schema = z.object({
