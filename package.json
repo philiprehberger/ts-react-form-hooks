@@ -1,6 +1,6 @@
 {
   "name": "@philiprehberger/react-form-hooks",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Lightweight form management hook with Zod validation, debounced field validation, and common validators",
   "type": "module",
   "main": "./dist/index.cjs",
