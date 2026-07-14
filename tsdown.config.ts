@@ -1,4 +1,4 @@
-import { defineConfig } from 'tsup';
+import { defineConfig } from 'tsdown';
 
 export default defineConfig({
   entry: ['src/index.ts'],
@@ -6,7 +6,10 @@ export default defineConfig({
   dts: true,
   sourcemap: true,
   clean: true,
-  external: ['react', 'zod'],
   treeshake: true,
   banner: { js: "'use client';" },
+  outExtensions: ({ format }) => ({
+    js: format === 'es' ? '.js' : '.cjs',
+    dts: format === 'es' ? '.d.ts' : '.d.cts',
+  }),
 });
